@@ -1,7 +1,8 @@
 package com.bridgelabz.jUnitTest;
 import java.util.Scanner;
 public class VendingMachine {
-
+  
+   
     static  int change(int n) {
     	int[] list= {1000,500,100,50,10,5,2,1};
     	if(n==0) {
@@ -23,6 +24,7 @@ public class VendingMachine {
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
        Scanner scan=new Scanner(System.in);
        System.out.println("Enter the amount for change :");
        int n=scan.nextInt();
